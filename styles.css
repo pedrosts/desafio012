@@ -1,0 +1,177 @@
+@charset "UTF-8"
+
+@font-face {
+    font-family: 'Asquire';
+    src: url('fontes/Asquire.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Stories';
+    src: url('fontes/Light Stories.otf') format('opentype');
+}
+
+html, body {
+    min-height: 100vh;
+   
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    padding: 60px;
+   font-size: 1.7em;
+}
+
+header > h1 {
+    font-family: 'Asquire', sans-serif;
+    text-align: center;
+    color: white;
+    
+}
+
+header > p {
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+header > p > a:hover {
+    text-decoration: underline;
+    transition-duration: 0.190s;
+    color: darkgrey;
+}
+
+p.primeira {font-family: 'Stories', cursive;
+    padding-top: 10vh;
+    padding-left: 15px;
+    font-size: 1.7em;
+    line-height: 1.7em;
+    font-weight: bold;
+    padding-bottom: 10vh;
+}
+
+p.segunda {
+    color: white;
+    font-family: 'Stories', cursive;
+    padding-left: 15px;
+    font-size: 1.7em;
+    line-height: 1.7em;
+    font-weight: bold;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.58);
+    width: 300px;
+    margin-left: 15px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 1.7em;
+}
+
+p.terceira {
+    font-family: 'Stories', cursive;
+    padding-top: 10vh;
+    padding-left: 15px;
+    font-size: 1.7em;
+    line-height: 1.7em;
+    font-weight: bold;
+}
+
+p.quarta {
+    font-family: 'Stories', cursive;
+    padding-top: 10vh;
+    padding-left: 15px;
+    font-size: 1.7em;
+    line-height: 1.7em;
+    font-weight: bold;
+    padding-bottom: 10vh;
+}
+
+p.quinta {
+    color: white;
+    font-family: 'Stories', cursive;
+    padding-left: 15px;
+    font-size: 1.7em;
+    line-height: 1.7em;
+    font-weight: bold;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.58);
+    width: 300px;
+    margin-left: 15px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 1.7em;
+}
+
+p.sexta {
+    font-family: 'Stories', cursive;
+    padding-top: 60px;
+    padding-left: 15px;
+    font-size: 1.7em;
+    line-height: 1.7em;
+    font-weight: bold;
+}
+
+p.setima {
+    font-family: 'Stories', cursive;
+    padding-top: 10vh;
+    padding-left: 15px;
+    font-size: 1.7em;
+    line-height: 1.7em;
+    font-weight: bold;
+    padding-bottom: 10vh;
+}
+
+section.wpp1 {
+    box-shadow: inset 6px 6px 13px 0px black;
+    text-shadow: 1px 1px 9px black;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right center;
+    background-image: url('imagens/background001.jpg');
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    
+}
+
+section.wpp2 {
+    box-shadow: inset 6px 6px 13px 0px black;
+    text-shadow: 1px 1px 9px black;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right center;
+    background-image: url('imagens/background002.jpg');
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+footer > a {
+    color: white;
+    font-weight: bold;
+}
+
+footer > a:hover {
+    transition-duration: 0.3s;
+    color: grey;
+}
+
+img {
+    max-width: 500px;
+}
+
